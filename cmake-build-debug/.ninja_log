@@ -1,8 +1,10 @@
 # ninja log v5
 8	2901	7624623731822384	CMakeFiles/COP_Cplusplus_SecondLaboratory.dir/main.cpp.obj	858c055c8f04bacc
-1	704	7624632000464856	build.ninja	303f2c9a902eab76
+1	704	7624643966209540	build.ninja	303f2c9a902eab76
 12	1863	7624628212462374	CMakeFiles/COP_Cplusplus_SecondLaboratory.dir/examples/1/main.cpp.obj	4eb8f31361484483
-1864	2137	7624628214727544	COP_Cplusplus_SecondLaboratory.exe	d11f514d00e680d8
+2052	2240	7624632825807297	COP_Cplusplus_SecondLaboratory.exe	503a0e4a232f2c33
 3	3702	7624628041349497	CMakeFiles/COP_Cplusplus_SecondLaboratory.dir/examples/1/index.cpp.obj	3fe3804168cc86ba
 7	2051	7624632824078732	CMakeFiles/COP_Cplusplus_SecondLaboratory.dir/examples/2/main.cpp.obj	d9b5d9102dabf582
-2052	2240	7624632825807297	COP_Cplusplus_SecondLaboratory.exe	503a0e4a232f2c33
+30	768	7624653689475861	CMakeFiles/COP_Cplusplus_SecondLaboratory.dir/examples/2/main.cpp.obj	d9b5d9102dabf582
+41	795	7624653689820218	CMakeFiles/COP_Cplusplus_SecondLaboratory.dir/examples/3/3.cpp.obj	a5f34c2b39ac9b4b
+796	996	7624653691641186	COP_Cplusplus_SecondLaboratory.exe	13230ce3de0c4f38

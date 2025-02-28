@@ -61,6 +61,12 @@ build CMakeFiles/COP_Cplusplus_SecondLaboratory.dir/examples/2/main.cpp.obj: CXX
   OBJECT_DIR = CMakeFiles\COP_Cplusplus_SecondLaboratory.dir
   OBJECT_FILE_DIR = CMakeFiles\COP_Cplusplus_SecondLaboratory.dir\examples\2
 
+build CMakeFiles/COP_Cplusplus_SecondLaboratory.dir/examples/3/3.cpp.obj: CXX_COMPILER__COP_Cplusplus_SecondLaboratory_unscanned_Debug C$:/Users/011ko/CLionProjects/COP_Cplusplus_SecondLaboratory/examples/3/3.cpp || cmake_object_order_depends_target_COP_Cplusplus_SecondLaboratory
+  DEP_FILE = CMakeFiles\COP_Cplusplus_SecondLaboratory.dir\examples\3\3.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\COP_Cplusplus_SecondLaboratory.dir
+  OBJECT_FILE_DIR = CMakeFiles\COP_Cplusplus_SecondLaboratory.dir\examples\3
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target COP_Cplusplus_SecondLaboratory
@@ -69,7 +75,7 @@ build CMakeFiles/COP_Cplusplus_SecondLaboratory.dir/examples/2/main.cpp.obj: CXX
 #############################################
 # Link the executable COP_Cplusplus_SecondLaboratory.exe
 
-build COP_Cplusplus_SecondLaboratory.exe: CXX_EXECUTABLE_LINKER__COP_Cplusplus_SecondLaboratory_Debug CMakeFiles/COP_Cplusplus_SecondLaboratory.dir/examples/1/main.cpp.obj CMakeFiles/COP_Cplusplus_SecondLaboratory.dir/examples/2/main.cpp.obj
+build COP_Cplusplus_SecondLaboratory.exe: CXX_EXECUTABLE_LINKER__COP_Cplusplus_SecondLaboratory_Debug CMakeFiles/COP_Cplusplus_SecondLaboratory.dir/examples/1/main.cpp.obj CMakeFiles/COP_Cplusplus_SecondLaboratory.dir/examples/2/main.cpp.obj CMakeFiles/COP_Cplusplus_SecondLaboratory.dir/examples/3/3.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\COP_Cplusplus_SecondLaboratory.dir

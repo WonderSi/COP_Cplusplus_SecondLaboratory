@@ -3,4 +3,7 @@ project(COP_Cplusplus_SecondLaboratory)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(COP_Cplusplus_SecondLaboratory main.cpp)
+add_executable(COP_Cplusplus_SecondLaboratory
+        examples/1/main.cpp
+        examples/2/main.cpp
+)

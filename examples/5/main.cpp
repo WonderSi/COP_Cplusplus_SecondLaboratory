@@ -34,20 +34,34 @@ public:
     };
 };
 
-//int main() {
-//    // Создать 1-й экземпляр CA
-//    CA* pA1 = new CA(1.5);
-//    pA1->Fx1();
-//    pA1->Fx2();
-//    pA1->Fx3();
-//    pA1->Fx4();
-//
-//    // Создать 2-й экземпляр CA
-//    CA* pA2 = new CA(2.75);
-//    pA2->Fx1();
-//    pA2->Fx2();
-//    pA2->Fx3();
-//    pA2->Fx4();
-//
-//    return 0;
-//}
+class CB : public IX {
+public:
+    // Реализация интерфейса IX
+    virtual void Fx1() { cout << "CB::Fx1" << endl; };
+    virtual void Fx2() { cout << "CB::Fx2" << endl; };
+    virtual void Fx3() { cout << "CB::Fx3" << endl; };
+    virtual void Fx4() { cout << "CB::Fx4" << endl; };
+};
+
+void foo(IX* pIX) {
+    pIX->Fx1();
+    pIX->Fx2();
+};
+
+int main() {
+    // Создать экземпляр CA
+    CA* pA = new CA(1.789);
+
+    // Создать экземпляр CB
+    CB* pB = new CB;
+
+    // Получить указатель IX для CA
+    IX* pIX = pA;
+    foo(pIX);
+
+    // Получить указатель IX для CA
+    pIX = pB;
+    foo(pIX);
+
+    return 0;
+};

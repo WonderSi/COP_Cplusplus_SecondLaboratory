@@ -8,4 +8,5 @@ add_executable(COP_Cplusplus_SecondLaboratory
         examples/2/main.cpp
         examples/3/main.cpp
         examples/4/main.cpp
+        examples/5/main.cpp
 )
